@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+/* header................................................. */
+.header-container{
+    width: 65%;
+    margin: 0 auto;
+    align-items: center;
+}
+ 
+.header{
+    background-color: black;
+    color: white;
+    height: 12rem;
+}
+header p{
+    padding: 1rem 0 0 7rem;
+    color: white;   
+}
+ 
+ header h1 {
+    color:rgb(219,120,53);
+     
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+span{
+    color: white;
+}
+ 
+ 
+.menu-items{
+    display: flex;
+  
+}
+.menu-items ul li {
+    padding: 5px;
+    
+    list-style-type: none;
+   
+}
+.menu-items ul li button{
+    padding: 10px 15px;
+    color: white;
+    background-color: greenyellow;
+    border-radius: 5px;
+    
+}
+.menu-items ul li button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+   
+ 
+ 
+ul{
+    display: flex;
+}
+img{
+    width: 300px;
+    height: 150px;
+    padding: 10px 0;
+}
+/* Main Body .............................................*/
+.main-body{
+    display: flex;  
+    width: 65%;
+    margin: 20px auto;
+     
+}
+article{
+    width: 33%;
+        
+}
+.readmore{
+    color: orange;
+
+}
+.comment{
+    color: greenyellow;
+}
+.Menu{
+    display: flex;
+    flex-direction: column;
+}
+h2  {
+    padding: 1rem 0;
+    color: greenyellow;
+}
+ 
+
+.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.sidebar ul li{
+    padding: 5px 0;
+}
+.sidebar ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+.sidebar ul li a:hover{
+    color: orange;
+}
+
+.sponsors div{
+    padding: 10px 0;
+
+}
+article p{
+    padding: 10px 0;
+}
+
+/* footer page */
+
+.footer1{
+    background-color: black;
+    color: white;
+    display: flex;
+
+}
+
+
+.About {
+    width: 30%;
+    display: flex;
+    flex-direction: column; 
+    padding: 0.5rem;
+    
+  } 
+.About-content {
+    display: flex;  
+    gap: 15px;
+  }
+  
+.About-text-right {
+    flex: 1; 
+  }
+ 
+.About a {
+    display: inline-block;
+    margin-top: 10px;
+    color: greenyellow;
+   
+    
+  }
+.footer1 img{
+    width: 120px;
+    height: auto;
+
+}
+.Gallery{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-right: 2rem;
+
+}
+.image1, .image2 {
+    display: flex;
+     
+    
+ 
+}
+.Gallery img{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+}
+ 
+  
+ 
+.contact{
+    width: 30%;
+    padding: 0.5rem;
+}
+.contact p {
+    margin: 0 0 10px;
+  }
+.About-content img{
+    width: 5rem;
+    height: 7rem;
+
+  }
+
+.container2 .menu-last{
+    margin-left: auto; 
+    width: 150px;  
+    height: 50px; 
+
+ }
+  
+ 
+  footer{
+    background-color:black;
+    color: white;
+  }
+  .footer-container{
+    width: 65%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: rgb(1, 30, 5);
+
+  }
+
+  
+  .last-container a {
+    color:white; 
+    text-decoration: none;
+    color: greenyellow;
+  }
+  .last-container ul li {
+    cursor: pointer; 
+  }
+  .last-container a:hover {
+     
+    color: orange;
+     
+  }
+ .container2{
+    background-color: rgb(1, 30, 5);
+
+ }
+ .last-container{
+  display: flex; 
+  width: 65%;  
+  margin:0 auto;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+.last-container ul{
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding:0;
+  color: white;
+}
+
+  
+ 
+ 
+
+
+ 
